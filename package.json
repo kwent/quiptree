@@ -1,0 +1,44 @@
+{
+  "name": "quiptree",
+  "version": "1.0.0",
+  "description": "Display Quip folders and files in tree format",
+  "main": "inject.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwent/quiptree"
+  },
+  "author": "Quentin Rousseau <contact@quent.in> (https://github.com/kwent)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwent/quiptree/issues"
+  },
+  "homepage": "https://github.com/kwent/quiptree",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-clean": "^0.3.1",
+    "event-stream": "*",
+    "gulp-run-sequence": "*",
+    "gulp-autoprefixer": "0.0.8",
+    "gulp-less": "^1.3.1",
+    "map-stream": "*",
+    "gulp-util": "^2.2.20",
+    "stream-series": "*",
+    "gulp-concat": "*",
+    "gulp-preprocess": "^1.1.1",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-run": "^1.6.4",
+    "gulp-zip": "^2.0.1",
+    "crx": "^0.4.4",
+    "jpm": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "mocha": "^2.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-exit": "0.0.2",
+    "underscore": "~1.7.0",
+    "underscore.string": "~2.4.0",
+    "async": "~0.9.0"
+  }
+}

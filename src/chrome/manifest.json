@@ -1,0 +1,24 @@
+{
+  "name": "Quiptree",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "author": "Quentin Rousseau",
+  "description": "Display Quip folders and files in tree format",
+  "homepage_url": "https://github.com/kwent/quiptree",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "https://*.quip.com/*",
+    "storage"
+  ],
+  "optional_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  }
+}

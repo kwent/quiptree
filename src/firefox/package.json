@@ -1,0 +1,14 @@
+{
+  "name": "quiptree",
+  "title": "Quiptree",
+  "description": "Display Quip folders and files in tree format",
+  "author": "Quentin Rousseau",
+  "homepage": "https://github.com/kwent/quiptree",
+  "main": "lib/firefox.js",
+  "icon": { "48": "icon.png", "64": "icon64.png" },
+  "license": "MIT",
+  "version": "1.0.0",
+  "permissions": {
+    "cross-domain-content": ["https://platform.quip.com", "https://quip.com"]
+  }
+}

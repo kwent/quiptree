@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Quentin Rousseau</string>
+	<key>Builder Version</key>
+	<string>9537.75.14</string>
+	<key>CFBundleDisplayName</key>
+	<string>Quiptree</string>
+	<key>CFBundleIdentifier</key>
+	<string>in.quent.quiptree</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>jquery.js</string>
+        <string>jquery-ui.js</string>
+        <string>jstree.js</string>
+        <string>keymaster.js</string>
+				<string>quip.min.js</string>
+        <string>quiptree.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>icomoon.css</string>
+      <string>jstree.css</string>
+			<string>quiptree.css</string>
+		</array>
+    <key>Whitelist</key>
+    <array>
+      <string>https://*.quip.com/*</string>
+    </array>
+	</dict>
+	<key>Description</key>
+	<string>Display Quip folders and files in tree format</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.quip.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/kwent/quiptree</string>
+</dict>
+</plist>

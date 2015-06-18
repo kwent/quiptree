@@ -1,0 +1,81 @@
+<div>
+  <div class="quiptree_sidebar ui-widget-content">
+    <div class="quiptree_views">
+      <div class="quiptree_view quiptree_treeview current">
+        <div class="quiptree_view_header">
+          <a class="quiptree_opts" href="javascript:void(0)"><span></span></a>
+          <span class="quiptree_header_icon"></span>
+          <input type="text" placeholder="Search" value="" class="input">
+        </div>
+        <div class="quiptree_view_body"></div>
+      </div>
+
+      <div class="quiptree_view quiptree_errorview">
+        <div class="quiptree_view_header">
+          <span class="quiptree_header_icon">Oops</span>
+        </div>
+        <form class="quiptree_view_body">
+          <div class="message"></div>
+          <div>
+            <input name="token" type="text" placeholder="Paste access token here" autocomplete="off">
+          </div>
+          <div>
+            <button type="submit" class="btn">Save</button>
+            <a href="https://quip.com/api/personal-token" target="_blank" tabIndex="-1">Create one now</a>
+          </div>
+          <div class="error"></div>
+        </form>
+      </div>
+
+      <div class="quiptree_view quiptree_optsview">
+        <div class="quiptree_view_header">
+          <a class="quiptree_opts" href="javascript:void(0)"><span></span></a>
+          <span class="quiptree_header_icon">Settings</span>
+        </div>
+        <form class="quiptree_view_body">
+          <div>
+            <div style='margin-bottom: 10px'>
+              <label>Quip access token</label>
+              <a href="https://quip.com/api/personal-token" target="_blank" tabIndex="-1">Create one now</a>
+            </div>
+            <input type="text" data-store="TOKEN" data-perhost="true">
+          </div>
+          <hr />
+          <div>
+            <label><input type="checkbox" data-store="REMEMBER">Show sidebar if previously shown</label>
+          </div>
+          <div>
+            <label><input type="checkbox" data-store="LAZYLOAD">Only load tree when sidebar is open</label>
+          </div>
+          <div>
+            <label><input type="checkbox" data-store="STATES">Saves the state of the tree (selected folders, opened folders)</label>
+          </div>
+          <div>
+            <div style='margin-bottom: 10px'>
+              <label>Hotkeys</label>
+              <a href="https://github.com/madrobby/keymaster#defining-shortcuts" target="_blank" tabIndex="-1">Supported keys</a>
+            </div>
+            <input type="text" data-store="HOTKEYS">
+          </div>
+          <div>
+            <button type="submit" class="btn">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="quiptree_popup">
+    <div class="arrow"></div>
+    <div class="content">
+      Quiptree is enabled on Quip pages. Click this button or press
+      <!-- @ifdef SAFARI -->
+      <kbd>cmd b</kbd> (or <kbd>ctrl b</kbd>)
+      <!-- @endif -->
+      <!-- @ifndef SAFARI -->
+      <kbd>cmd shift s</kbd> (or <kbd>ctrl shift s</kbd>)
+      <!-- @endif -->
+      to show it.
+    </div>
+  </div>
+</div>
