@@ -10,9 +10,10 @@ Browser extension (Chrome, Opera) to display Quip folders and files in tree form
 * Customizable hotkey
 
 ## Install on Chrome & Opera
+
 * Download and install Quiptree.
   - [Chrome Web Store](https://chrome.google.com/webstore/detail/quiptree/gcomjeafpffkkijhaigafppjkkadnpkb)
-  - [Opera Add-ons Store](https://addons.opera.com/en/extensions/details/quiptree/)
+  - [Opera Add-ons Store](https://addons.opera.com/en/extensions/details/quiptree/) (Pending Review)
   - Mozilla Add-ons Store (Not available yet, see below)
   - Safari Add-ons Store (Not available yet, see below)
 
@@ -46,7 +47,9 @@ localStorage.setItem('quiptree.quip_access_token', 'REPLACE WITH TOKEN')
 
 # Credits
 
-[Quiptree](https://github.com/kwent/quiptree) is largely inspired by [Octotree](https://github.com/buunguyen/octotree) created by [Buu Nguyen](https://github.com/buunguyen).
+- [Quiptree](https://github.com/kwent/quiptree) is using Quip Api Javascript wrapper: [quip.js](https://github.com/kwent/quip.js)
+
+- [Quiptree](https://github.com/kwent/quiptree) is largely inspired by [Octotree](https://github.com/buunguyen/octotree) created by [Buu Nguyen](https://github.com/buunguyen).
 
 # Contributing
 1. Fork it
