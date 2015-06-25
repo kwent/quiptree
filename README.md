@@ -13,7 +13,7 @@ Browser extension (Chrome, Opera) to display Quip folders and files in tree form
 
 * Download and install Quiptree.
   - [Chrome Web Store](https://chrome.google.com/webstore/detail/quiptree/gcomjeafpffkkijhaigafppjkkadnpkb)
-  - [Opera Add-ons Store](https://addons.opera.com/en/extensions/details/quiptree/) (Pending Review)
+  - [Opera Add-ons Store](https://addons.opera.com/en/extensions/details/quiptree)
   - Mozilla Add-ons Store (Not available yet, see below)
   - Safari Add-ons Store (Not available yet, see below)
 
