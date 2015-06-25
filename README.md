@@ -9,6 +9,10 @@ Browser extension (Chrome, Opera) to display Quip folders and files in tree form
 * Support private Quip domains
 * Customizable hotkey
 
+## Preview
+
+![Quiptree Screenshot](https://github.com/kwent/quiptree/blob/master/docs/chrome.png?raw=1)
+
 ## Install on Chrome & Opera
 
 * Download and install Quiptree.
