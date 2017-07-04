@@ -1,5 +1,7 @@
 ## Quiptree
 
+**Note**: This project is **DEPRECATED** and **NOT** maintained anymore since this feature is **built-in** in Quip.
+
 [![Quiptree Logo](https://github.com/kwent/quiptree/blob/master/icons/icon128.png?raw=1)](https://github.com/kwent/quiptree)
 
 Browser extension (Chrome, Opera) to display Quip folders and files in tree format.
